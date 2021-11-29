@@ -1,0 +1,61 @@
+site_name: Twin Souls prototype
+
+nav:
+    - Game design document: 
+        - Overview: index.md
+        - Twin: gameplay/Twin.md
+        - Main Mechanic: 
+            - ⛓️ Link concept: gameplay/main-mechanic/Link-concept.md
+            - 🎡 Elements equality wheel: gameplay/main-mechanic/Elements-equality-wheel.md
+            - 🔄 Element switching: gameplay/main-mechanic/Element-switching.md
+            - 🔍️ Fusion & Repression: gameplay/main-mechanic/Fusion-Repression.md
+            - ⚗️ Elements & effects: gameplay/main-mechanic/Elements-effects.md
+            - ⚙️ Mechanic demonstration: gameplay/main-mechanic/Mechanic-demonstration.md
+            - 🎞️ Mechanic scenarios: gameplay/main-mechanic/Mechanic-scenarios.md
+        - Combat Mechanics: 
+            - ⚔️ Weapons: gameplay/combat-mechanic/weapons.md
+            - 🎆 Spell kit: gameplay/combat-mechanic/spell-kit.md
+    - Prototype:
+        - Area 1 - Pressure plates: prototype/area1.md
+        - Area 2 - Pillars: prototype/area2.md
+        - Area 3 - Movement ability: prototype/area3.md
+        - Area 4 - Training ground: prototype/area4.md
+        - Area 5 - Monster waves: prototype/area5.md
+    - Play testing:
+        - "Discovery session #1": playtesting/discovery-session1.md 
+        - "Discovery session #2": playtesting/discovery-session2.md 
+        - Balancing sessions: playtesting/balancing-session.md
+    
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/logo.png
+
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.top
+    - content.code.annotate
+
+  palette: 
+    - schema: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate 
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
