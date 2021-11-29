@@ -1,0 +1,2 @@
+C:\Users\mathi\Documents\Perso\Unity\TwinSouls\TwinSouls_prototype\obj\Debug\Unity.Rider.Editor.csproj.AssemblyReference.cache
+C:\Users\mathi\Documents\Perso\Unity\TwinSouls\TwinSouls_prototype\obj\Debug\Unity.Rider.Editor.csproj.CoreCompileInputs.cache
