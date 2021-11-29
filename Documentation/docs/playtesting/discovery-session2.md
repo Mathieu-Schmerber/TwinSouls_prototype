@@ -20,7 +20,7 @@ They quickly realised they could shoot the pillars to change them, but for a few
 
 Like the previous duo, it took some time to have the idea of using the same element to activated the pillars. For the 💧 ⚡️ pillar, they did also come up with a rather complex set up to solve it, but did not try it because they felt like it was way to complex. They solved the puzzle as intended.
 
-### [Area 2 - Pillars & pressure plates](<../prototype/area3.md>)
+### [Area 3 - Movement ability](<../prototype/area3.md>)
 
 Dashing above the void was instant for them (as the previous duo). However they got stuck a fair minute in front of the wall obstructing the way. Players tried changing elements to detroy it, before trying the ⚡️ moving ability to flash it. One of the players glitched over the wall by timing the 🔥 dash.
 
@@ -32,7 +32,7 @@ Players tried swinging the different weapons for a VERY LONG TIME. Seems like th
 
 As good as it sounds, I actually had to interfer since they had a hard time understanding how the element mechanic worked when applied to fighting.
 
-### [Area 2 - Pillars & pressure plates](<../prototype/area5.md>)
+### [Area 5 - Monster waves](<../prototype/area5.md>)
 
 Players had a hard time communicating with each other and died 3 times pointlessly, they were not focusing at all since they were laughing the whole tries looking at how unorganized they were.
 
@@ -53,13 +53,13 @@ Overall, I am very happy with the movement and fighting mechanics, in both sessi
 * [Area 2 - Pillars & pressure plates](<../prototype/area2.md>):
   * The activated pillar was a great tweak, however I've added a green outline to the pillars when activated to make players understand better what is happening.
   * Increasing the boxes outline width to give a better feel that players can interact with them.
-* [Area 2 - Pillars & pressure plates](<../prototype/area3.md>):
+* [Area 3 - Movement ability](<../prototype/area3.md>):
   * Increasing the flashable wall collider in height, so players cannot dash over it
 * [Area 4 - Training ground](<../prototype/area4.md>):
   * Adding a bounce feedback on dummies when hit, this way players will better understand if their attack did damage or not.
-* [Twin](<Twin 169788bb.md>):
+* [Twin](<../gameplay/Twin.md>):
   * 👟 speed: 5 units → 6 units (move quicker than the enemies)
-* [⚔️ Weapons](<⚔️ Weapons 779e3248.md>):
+* [⚔️ Weapons](<../gameplay/combat-mechanic/weapons.md>):
   * Sword (trying to make melee combat more fair):
     * Hitbox increased
     * Attack speed: 1.8 → 2

@@ -20,7 +20,7 @@ Activating the ⚡️ 💧 pillar was a real struggle and players came up with v
 
 During this area, players died once to [🔍️ Fusion & Repression](<../gameplay/main-mechanic/Fusion-Repression.md>) caused by the 🔥 burning effect.
 
-### [Area 2 - Pillars & pressure plates](<../prototype/area3.md>)
+### [Area 3 - Movement ability](<../prototype/area3.md>)
 
 This part went very smoothly since both players thoroughly enjoyed dashing around since the very beginning. They quickly realised that the boxes could have timers on them, and that they had to use the ❄️mobility ability, howerver it did take some time to come to this ability usage conclusion since they started by shooting as quickly as possible.
 
@@ -32,7 +32,7 @@ Player B spent quite some time playing around with the weapon choices. This play
 
 Both players started to understand how complex the system was and were very confused, starting to realise that they will need to be using their head more from now on.
 
-### [Area 2 - Pillars & pressure plates](<../prototype/area5.md>)
+### [Area 5 - Monster waves](<../prototype/area5.md>)
 
 Players died 3 times during the first wave since they didn't realize how communication was important whenever switching elements.
 
@@ -52,7 +52,7 @@ The game is lacking feedbacks on the puzzle side, where on the combat side enemi
 * [Area 2 - Pillars & pressure plates](<../prototype/area2.md>): 
   * By default a pillar is active, this will help the players understand that every pillars should be lighten up.
   * Pillars have now a visual cooldown wheel effect before turning back, this way players will figure out quicker that pillars are bound to reset after a change
-* [Area 2 - Pillars & pressure plates](<../prototype/area5.md>):
+* [Area 5 - Monster waves](<../prototype/area5.md>):
   * Monsters:
     * 👟 speed: 6.5 units → 5.5 units
     * ❤️ health: 10 hp → 20 hp (since enemies are slower, they will dodge less projectiles)
