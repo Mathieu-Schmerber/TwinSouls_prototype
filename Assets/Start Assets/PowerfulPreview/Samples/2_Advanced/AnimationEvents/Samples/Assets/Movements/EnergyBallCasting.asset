@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8384842355218434545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bead7cbfee1ad4381712d1f535979d, type: 3}
+  m_Name: PlaySoundEffectEvent
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 52f227d6035a9684d8ee21b9a4e33596, type: 3}
+  m_PreviewSound: 0
+--- !u!114 &-5594181865156065820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 1'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: 5486477827229202937}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.20512821
+--- !u!114 &-4872861079555359636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e544207b2d0804c8721fe803f3242a, type: 3}
+  m_Name: ThrowEvent
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 158026, guid: fec174e234dd2a74184e6bb2096e6d22, type: 3}
+  hitPrefab: {fileID: 172926, guid: 5b8504d5d226bac4fb828119898fa6ba, type: 3}
+  direction: {x: 0, y: 0, z: 6}
+  origin:
+    linkToBodyPart: 1
+    bodyPart: 18
+    positionOffset: {x: 0, y: 0, z: 0}
+    anglesOffset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+--- !u!114 &-4582246855281532560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 2'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: -4051452084073699000}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.20512821
+--- !u!114 &-4529253060688275712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 3'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: -4872861079555359636}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.51282054
+--- !u!114 &-4051452084073699000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67ff89f33bcd54cbe827f08d84f61c, type: 3}
+  m_Name: InstantiateEffectEvent
+  m_EditorClassIdentifier: 
+  useObjectAsParent: 0
+  effectPrefab: {fileID: 0}
+  destroyOnTimer: 0
+  lifeTime: 0
+  instantiateOptions:
+    linkToBodyPart: 0
+    bodyPart: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+    anglesOffset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bd395d3c4ff67499bfda57ff547967, type: 3}
+  m_Name: EnergyBallCasting
+  m_EditorClassIdentifier: 
+  m_Animation: {fileID: 7400000, guid: 11128518c53668a4eaad6f660d06735b, type: 3}
+  m_KeyFrames:
+  - {fileID: -5594181865156065820}
+  - {fileID: -4582246855281532560}
+  - {fileID: -4529253060688275712}
+  - {fileID: 2737978041352621609}
+  - {fileID: 8825381870827986327}
+--- !u!114 &2737978041352621609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 4'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: -8384842355218434545}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.43589744
+--- !u!114 &5486477827229202937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67ff89f33bcd54cbe827f08d84f61c, type: 3}
+  m_Name: InstantiateEffectEvent
+  m_EditorClassIdentifier: 
+  useObjectAsParent: 1
+  effectPrefab: {fileID: 166218, guid: f7b23feb5b810b34dabebf3d84a5be89, type: 3}
+  destroyOnTimer: 1
+  lifeTime: 0.42
+  instantiateOptions:
+    linkToBodyPart: 1
+    bodyPart: 17
+    positionOffset: {x: -0.05, y: 0.1, z: 0}
+    anglesOffset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+--- !u!114 &8825381870827986327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 5'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: 0}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.6666667

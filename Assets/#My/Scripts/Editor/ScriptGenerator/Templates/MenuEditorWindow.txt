@@ -1,0 +1,34 @@
+﻿using UnityEngine;
+using UnityEditor;
+using System.Linq;
+using Sirenix.OdinInspector;
+using Sirenix.OdinInspector.Editor;
+using Sirenix.Utilities.Editor;
+
+namespace #NAMESPACE# 
+{
+    public class #SCRIPTNAME# : OdinMenuEditorWindow
+    {
+        #region Types
+
+
+
+        #endregion
+        
+        #region Properties
+
+
+
+        #endregion
+
+        [MenuItem("#SCRIPTNAME#")]
+        private static void OpenWindow() => GetWindow<#SCRIPTNAME#>().Show();
+
+        protected override OdinMenuTree BuildMenuTree()
+        {
+            OdinMenuTree tree = new OdinMenuTree();
+
+            return tree;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861d9dbf0bcefe941a957680c1878648, type: 3}
+  m_Name: New Controls Map Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  ControlsMapTable:
+  - action: MovingAbility
+    keyboardKey: {fileID: 931041500325180171, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 3875008973597506974, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: -4456322015866957549, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Movement
+    keyboardKey: {fileID: 0}
+    xboxKey: {fileID: 349289878343024143, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: -3686142914688319025, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Aim
+    keyboardKey: {fileID: 3774389755376756721, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 700559583916844236, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: -6827842605906683095, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Fire Vote
+    keyboardKey: {fileID: 7515579009107911402, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 5974616925336591175, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: 4739440216165485913, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Water Vote
+    keyboardKey: {fileID: 8216738563097165846, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 6071146011416404120, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: -273766252021608654, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Lighting Vote
+    keyboardKey: {fileID: 7081996516975363456, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 1095563346711216687, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: 8504045935390183615, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Ice Vote
+    keyboardKey: {fileID: 2441635652190244947, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 5856693928050249788, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: 6565922255088526919, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Attack
+    keyboardKey: {fileID: -286656114126371052, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: -8424443520987466888, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: 3905256435177172061, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}
+  - action: Ready
+    keyboardKey: {fileID: 0}
+    xboxKey: {fileID: 0}
+    ps4Key: {fileID: 0}
+  - action: Interact
+    keyboardKey: {fileID: -6784228355203824144, guid: 333a11d14be16bf4bb59a8aa7885a9fe,
+      type: 3}
+    xboxKey: {fileID: 2969744102719903419, guid: 6aa51686b51021542a9151d67e9bcaf1,
+      type: 3}
+    ps4Key: {fileID: -487555251277421047, guid: 3d8eb7bf66821a24b9a0ebd78c76d780,
+      type: 3}

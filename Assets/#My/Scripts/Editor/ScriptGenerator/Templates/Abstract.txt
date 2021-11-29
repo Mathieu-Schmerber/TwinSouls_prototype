@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using Sirenix.OdinInspector;
+
+namespace #NAMESPACE# 
+{
+    public abstract class #SCRIPTNAME# : SerializedMonoBehaviour
+    {
+        #region Properties
+
+
+
+        #endregion
+
+        #region Unity builtins
+
+        // Get references
+        protected virtual void Awake()
+        {
+
+        }
+
+        // Initialization
+        protected virtual void Start()
+        {
+
+        }
+
+        #endregion
+    }
+}

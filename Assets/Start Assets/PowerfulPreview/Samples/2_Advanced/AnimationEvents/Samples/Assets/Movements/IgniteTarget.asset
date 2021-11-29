@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2353712070182279762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 1'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: 2895009316432040346}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.34285715
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bd395d3c4ff67499bfda57ff547967, type: 3}
+  m_Name: IgniteTarget
+  m_EditorClassIdentifier: 
+  m_Animation: {fileID: 7400000, guid: 6eff141defdcca64e8079069c3c35099, type: 3}
+  m_KeyFrames:
+  - {fileID: -2353712070182279762}
+  - {fileID: 7802891986332020725}
+--- !u!114 &1299906755594135223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2e8be4c9e959448a169fc361174346, type: 3}
+  m_Name: InvokeMethodEvent
+  m_EditorClassIdentifier: 
+  m_MethodName: IgniteTarget
+  m_Delay: 0
+--- !u!114 &2895009316432040346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a67ff89f33bcd54cbe827f08d84f61c, type: 3}
+  m_Name: InstantiateEffectEvent
+  m_EditorClassIdentifier: 
+  useObjectAsParent: 0
+  effectPrefab: {fileID: 102504, guid: 058df99739e0a4241a96aef307184176, type: 3}
+  destroyOnTimer: 0
+  lifeTime: 0
+  instantiateOptions:
+    linkToBodyPart: 1
+    bodyPart: 18
+    positionOffset: {x: 0, y: 0, z: 0}
+    anglesOffset: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+--- !u!114 &7802891986332020725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 2'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: 1299906755594135223}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.54285717

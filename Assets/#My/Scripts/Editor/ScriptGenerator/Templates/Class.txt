@@ -1,0 +1,39 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using Sirenix.OdinInspector;
+
+namespace #NAMESPACE# 
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        #region Types
+
+
+
+        #endregion
+
+        #region Properties
+
+
+
+        #endregion
+
+        #region Unity builtins
+
+        // Get references
+        private void Awake()
+        {
+
+        }
+
+        // Initialization
+        private void Start()
+        {
+
+        }
+
+        #endregion
+    }
+}

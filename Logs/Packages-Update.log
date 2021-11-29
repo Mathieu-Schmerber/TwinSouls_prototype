@@ -1,0 +1,19 @@
+
+=== Tue Jun 22 12:39:39 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.visualscripting@1.6.1
+
+=== Thu Oct  7 13:38:18 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.2.16 to 1.10.2
+  com.unity.ide.visualstudio from version 2.0.9 to 2.0.11
+  com.unity.ide.vscode from version 1.2.3 to 1.2.4
+  com.unity.test-framework from version 1.1.24 to 1.1.29

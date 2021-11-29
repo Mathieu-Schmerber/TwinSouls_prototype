@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bd395d3c4ff67499bfda57ff547967, type: 3}
+  m_Name: SlowMoKick
+  m_EditorClassIdentifier: 
+  m_Animation: {fileID: 7400000, guid: 3392e1e592cb9484a981158db98c9994, type: 3}
+  m_KeyFrames:
+  - {fileID: 7165579970213715250}
+--- !u!114 &7165579970213715250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51ab54fc4b9223478760b426f8193d0, type: 3}
+  m_Name: 'Key Frame: 1'
+  m_EditorClassIdentifier: 
+  m_AnimationEvent: {fileID: 8798141062067509556}
+  m_UsePrefab: 0
+  m_InvokeTime: 0.23529412
+--- !u!114 &8798141062067509556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f13f371c0d8fd84cb61690f9a042d4b, type: 3}
+  m_Name: SlowMoEvent
+  m_EditorClassIdentifier: 
+  timeScale: 0.232
+  duration: 1
