@@ -187,8 +187,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link md-tabs__link--active">
-        Game design document
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
+        Gameplay
       </a>
     </li>
   
@@ -203,7 +203,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../prototype/area1/" class="md-tabs__link">
+      <a href="../../../prototype/" class="md-tabs__link">
         Prototype
       </a>
     </li>
@@ -219,7 +219,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../playtesting/discovery-session1/" class="md-tabs__link">
+      <a href="../../../playtesting/" class="md-tabs__link">
         Play testing
       </a>
     </li>
@@ -276,14 +276,14 @@
       
       
         <label class="md-nav__link" for="__nav_1">
-          Game design document
+          Gameplay
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Game design document" data-md-level="1">
+      <nav class="md-nav" aria-label="Gameplay" data-md-level="1">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
-          Game design document
+          Gameplay
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -293,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -415,6 +415,13 @@
         <li class="md-nav__item">
   <a href="#link-input" class="md-nav__link">
     Link input
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vote-system-sketching" class="md-nav__link">
+    Vote system sketching
   </a>
   
 </li>
@@ -552,6 +559,95 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../puzzle/" class="md-nav__link">
+        Puzzle elements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          Pre production
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pre production" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Pre production
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/technical/" class="md-nav__link">
+        Implementation details
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/assets/" class="md-nav__link">
+        Assets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/feedback/" class="md-nav__link">
+        Feedbacks
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -585,6 +681,20 @@
           Prototype
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../prototype/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -696,6 +806,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../playtesting/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../playtesting/discovery-session1/" class="md-nav__link">
         Discovery session #1
       </a>
@@ -775,6 +899,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#vote-system-sketching" class="md-nav__link">
+    Vote system sketching
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -791,16 +922,25 @@
                   <h1>🔄 Element switching</h1>
                 
                 <h2 id="vote-system">Vote system</h2>
-<p>As mentioned earlier, <a href="../../Twin/">Twin</a>s can dynamically switch of elements during the game. However a <a href="../../Twin/">Twin</a> cannot switch element without the consent the other one, Twin Souls is a cooperation game after all !</p>
-<p>When a <a href="../../Twin/">Twin</a> wants to switch of element, he needs to emit a vote on an element he picked from the <a href="../Elements-equality-wheel/">🎡 Elements equality wheel</a>. The <a href="../../Twin/">Twin</a> can change his vote after emitting it.</p>
+<p>As mentioned earlier, <a href="../../Twin/">Twins</a> can dynamically switch of elements during the game. 
+However a <a href="../../Twin/">Twin</a> cannot switch of element without consent of the other one, Twin Souls is a cooperation game after all !</p>
+<p>When a <a href="../../Twin/">Twin</a> wants to switch of element, 
+he needs to emit a vote on an element he picked from the <a href="../Elements-equality-wheel/">🎡 Elements equality wheel</a>. 
+The <a href="../../Twin/">Twin</a> can change his vote after emitting it.</p>
 <p>Whenever the other <a href="../../Twin/">Twin</a> emits a vote to switch to another element, the switch is applied confirming the vote.</p>
 <blockquote>
 <p>💡 <strong>Example</strong></p>
 <p>The first <a href="../../Twin/">Twin</a> votes for the fire element. Whenever the other <a href="../../Twin/">Twin</a> wants, he votes for the lighting element. The votes get submitted, the first <a href="../../Twin/">Twin</a> changes to fire while the other <a href="../../Twin/">Twin</a> changes to lightning</p>
 </blockquote>
 <h2 id="link-input">Link input</h2>
-<p>After the vote ends, the <a href="../../Twin/">Twin</a>s will start inputting their elements in the link, the elements take <strong>{x}</strong> seconds to reach their destinations in the link, before resulting in any combination state.</p>
-<p>⚠️ Values are to be set/changed after iterating playtest sessions</p>
+<p>After the vote ends, the <a href="../../Twin/">Twins</a> will start inputting their elements in the link. <br/> 
+The elements take <strong>{5 seconds}</strong> to reach their destinations in the link, before resulting in any combination state.</p>
+<p>⚠️ Values are to be set/changed after iterating playtest sessions. <br/> Please refer to the <a href="../../../playtesting/">Play testing section</a></p>
+<h2 id="vote-system-sketching">Vote system sketching</h2>
+<p><img alt="vote-system" src="../../../img/vote-system.png" /></p>
+<blockquote>
+<p>Sketch of the <a href="../../Twin/">Twins</a> voting for their next elements (🔥 and ❄️).</p>
+</blockquote>
                 
               
               
