@@ -1,8 +1,8 @@
-## Explanation under the Link context
+## Explanation with the [Link concept](<Link-concept.md>)
 
 **Fusion**
 
-> 📕 **Definition** : A fusion occurs when each [Twin](<../Twin.md>) has inputted complementary elements in accordance to the [🎡 Elements equality wheel](<Elements-equality-wheel.md>).
+> 📕 **Definition** : A fusion occurs when each [Twin](<../Twin.md>) has inputted complementary elements in accordance with the [🎡 Elements equality wheel](<Elements-equality-wheel.md>).
 >
 > ⚛️ **Result **:  Whenever a fusion occurs throughout the link, each [Twin](<../Twin.md>)'s magic gets enhanced by his sibling's element effect.
 >
@@ -22,8 +22,16 @@
 >
 > 👁️ **Feedback : **The players can see the strong element taking over the weak element throughout the link. The strong element reaches the repressed [Twin](<../Twin.md>) while the weak element comes back to him as well, erasing the weak element presence.
 
-## ⚠️ General context
+## ⚠️ Ecosystem
 
-Even though the concepts of Fusion and Regression can be observed throughout the Link between both [Twin](<../Twin.md>)s, the cause of such an event does not result from [Twin](<../Twin.md>)s emitting elements but rather in the elements' effects combination.
+Even though the concepts of Fusion and Regression can be observed throughout the Link between both [Twin](<../Twin.md>), 
+the cause of such an event is not [Twins](<../Twin.md>) emitting elements but rather the elements beiing combined into such effects.
+The [Link](<Link-concept.md>) could be seen as a way for both [Twin](<../Twin.md>) to constantly "attack" each other.
 
-As such, we could talk about a Fusion or a Regression whenever an effect combination is observed. The effect's combination actors could be [Twin](<../Twin.md>)s as well as elemental monsters or even elemental traps.
+As such, we could talk about a Fusion or a Regression whenever an effect combination is observed.
+The effect's combination actors could be [Twins](<../Twin.md>) as well as elemental monsters 
+or whatever entity that is able to emit an element.
+
+Those principles linked with the [🎡 Elements equality wheel](<Elements-equality-wheel.md>) create a whole **ecosystem** in the game.
+
+**[Twins](<../Twin.md>) are not different beings in the game, they are just entities using the system's principles.**

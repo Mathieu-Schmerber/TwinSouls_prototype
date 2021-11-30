@@ -1,8 +1,8 @@
 site_name: Twin Souls prototype
 
 nav:
-    - Game design document: 
-        - Overview: index.md
+    - Gameplay: 
+        - Overview: gameplay/index.md
         - Twin: gameplay/Twin.md
         - Main Mechanic: 
             - ⛓️ Link concept: gameplay/main-mechanic/Link-concept.md
@@ -15,13 +15,20 @@ nav:
         - Combat Mechanics: 
             - ⚔️ Weapons: gameplay/combat-mechanic/weapons.md
             - 🎆 Spell kit: gameplay/combat-mechanic/spell-kit.md
+        - Puzzle elements: gameplay/puzzle.md
+        - Pre production:
+            - Implementation details: gameplay/pre-production/technical.md
+            - Assets: gameplay/pre-production/assets.md
+            - Feedbacks: gameplay/pre-production/feedback.md
     - Prototype:
+        - Overview: prototype/index.md
         - Area 1 - Pressure plates: prototype/area1.md
         - Area 2 - Pillars: prototype/area2.md
         - Area 3 - Movement ability: prototype/area3.md
         - Area 4 - Training ground: prototype/area4.md
         - Area 5 - Monster waves: prototype/area5.md
     - Play testing:
+        - Overview: playtesting/index.md
         - "Discovery session #1": playtesting/discovery-session1.md 
         - "Discovery session #2": playtesting/discovery-session2.md 
         - Balancing sessions: playtesting/balancing-session.md

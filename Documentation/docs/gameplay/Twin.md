@@ -22,3 +22,8 @@ It needs to be always filming both Twins. It will be dynamically placed  at an e
 The movements and rotations are based on the screen position, meaning wherever the Twin may be looking if the player push his joystick up, the Twin will move upwards on the map.
 
 The Twin has to be always facing the direction he is aiming at, independently of the direction he is running towards.
+
+## ❤️ Health system
+
+The Twins are sharing a same health bar, since the death of one brings the other's. <br/>
+When dying, Twins are teleported to their previous spawn point.

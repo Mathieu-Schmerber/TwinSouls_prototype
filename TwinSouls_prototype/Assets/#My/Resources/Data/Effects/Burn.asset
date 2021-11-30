@@ -29,7 +29,7 @@ MonoBehaviour:
   type: 0
   stackable: 0
   duration: 3
-  value: 10
+  value: 5
   valueType: 0
   overTime: 1
   interval: 1

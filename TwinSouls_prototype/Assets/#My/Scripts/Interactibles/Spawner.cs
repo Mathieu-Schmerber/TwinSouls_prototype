@@ -36,10 +36,6 @@ namespace TwinSouls.Interactibles
 		public static event Action<int, int> OnWaveStartEvt;
 		public static event Action OnSpawnerClearedEvt;
 
-#if DEBUG
-		[SerializeField] private bool _drawGizmos;
-#endif
-
 		[SerializeField] private Activatable _activationDevice;
 		[SerializeField] private Area[] _spawnableAreas;
 		[SerializeField] private Wave[] _waves;
@@ -166,7 +162,7 @@ namespace TwinSouls.Interactibles
 
 		private void OnDrawGizmos()
 		{
-			if (_spawnableAreas?.Length > 0 && _drawGizmos)
+			if (_spawnableAreas?.Length > 0)
 			{
 				Gizmos.color = Color.red;
 				foreach (Area item in _spawnableAreas)

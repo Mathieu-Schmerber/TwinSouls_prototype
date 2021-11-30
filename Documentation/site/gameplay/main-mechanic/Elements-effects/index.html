@@ -187,8 +187,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link md-tabs__link--active">
-        Game design document
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
+        Gameplay
       </a>
     </li>
   
@@ -203,7 +203,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../prototype/area1/" class="md-tabs__link">
+      <a href="../../../prototype/" class="md-tabs__link">
         Prototype
       </a>
     </li>
@@ -219,7 +219,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../playtesting/discovery-session1/" class="md-tabs__link">
+      <a href="../../../playtesting/" class="md-tabs__link">
         Play testing
       </a>
     </li>
@@ -276,14 +276,14 @@
       
       
         <label class="md-nav__link" for="__nav_1">
-          Game design document
+          Gameplay
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Game design document" data-md-level="1">
+      <nav class="md-nav" aria-label="Gameplay" data-md-level="1">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
-          Game design document
+          Gameplay
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -293,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -559,6 +559,95 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../puzzle/" class="md-nav__link">
+        Puzzle elements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          Pre production
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pre production" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Pre production
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/technical/" class="md-nav__link">
+        Implementation details
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/assets/" class="md-nav__link">
+        Assets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-production/feedback/" class="md-nav__link">
+        Feedbacks
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -592,6 +681,20 @@
           Prototype
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../prototype/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -703,6 +806,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../playtesting/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../playtesting/discovery-session1/" class="md-nav__link">
         Discovery session #1
       </a>
@@ -807,29 +924,49 @@
                 <h2 id="primary-effects">Primary effects</h2>
 <p>Each element has its effect, that can be applied by the means of attacks or spells.</p>
 <ul>
-<li>🔥 Fire → Burn effect</li>
-</ul>
+<li>
+<p>🔥 Fire → Burn effect</p>
 <blockquote>
-<p>Applies <strong>{x}</strong> damages each <strong>{y}</strong> seconds for <strong>{z}</strong> seconds
-* ❄️Ice → Slow effect</p>
-<p>Slows by <strong>{x}</strong>% for <strong>{y}</strong> seconds
-* ⚡️Lightning → Stun effect</p>
-<p>Restricts the target from moving or using abilities for <strong>{x}</strong> seconds
-* 💧 Water → Weak effect</p>
-<p>Reduces target's resistance and power by <strong>{x}</strong>% for <strong>{y}</strong> seconds</p>
+<p>Applies <strong>{5}</strong> damages each <strong>{1}</strong> seconds for <strong>{3}</strong> seconds</p>
 </blockquote>
-<p>⚠️ Values are to be set/changed after iterating playtest sessions</p>
+</li>
+<li>
+<p>❄️Ice → Slow effect</p>
+<blockquote>
+<p>Slows by <strong>{20}</strong>% for <strong>{2}</strong> seconds</p>
+</blockquote>
+</li>
+<li>
+<p>⚡️Lightning → Stun effect</p>
+<blockquote>
+<p>Restricts the target from moving or using abilities for <strong>{0.2}</strong> seconds</p>
+</blockquote>
+</li>
+<li>
+<p>💧 Water → Weak effect</p>
+<blockquote>
+<p>Reduces target's resistance and power by <strong>{20}</strong>% for <strong>{2}</strong> seconds</p>
+</blockquote>
+</li>
+</ul>
+<p>⚠️ Values are to be set/changed after iterating playtest sessions. <br/> Please refer to the <a href="../../../playtesting/">Play testing section</a></p>
 <h2 id="fusion-effects">Fusion effects</h2>
 <p>Combining two primary effects on a target results in the effects fusion.</p>
 <ul>
-<li>💥 Explosion → 🔥 + ⚡️</li>
-</ul>
+<li>
+<p>💥 Explosion → 🔥 + ⚡️</p>
 <blockquote>
-<p>Applies burn effect to the target. Everytime the burn effect applies damages, the target gets the stun effect for <strong>{x}</strong> seconds. 
-* ☃️ Freeze → 💧 + ❄️</p>
-<p>Restricts the target from moving or using abilities for <strong>{x}</strong> seconds. The target's resistance is reduced by <strong>{x}</strong>% in the meantime.</p>
+<p>Applies burn effect to the target. Everytime the burn effect applies damages, the target gets the stun effect for <strong>{3}</strong> seconds. </p>
 </blockquote>
-<p>⚠️ Values are to be set/changed after iterating playtest sessions</p>
+</li>
+<li>
+<p>☃️ Freeze → 💧 + ❄️</p>
+<blockquote>
+<p>Restricts the target from moving or using abilities for <strong>{2}</strong> seconds. The target's resistance is reduced by <strong>{20}</strong>% in the meantime.</p>
+</blockquote>
+</li>
+</ul>
+<p>⚠️ Values are to be set/changed after iterating playtest sessions. <br/> Please refer to the <a href="../../../playtesting/">Play testing section</a></p>
 <h2 id="repression-effects">Repression effects</h2>
 <p>According to the <a href="../Elements-equality-wheel/">🎡 Elements equality wheel</a>, trying to apply an element's effect on a target already suffering from a non-complimentary or unsimilar element's effect results in the clearance of the target effects.</p>
 <blockquote>
