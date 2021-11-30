@@ -1,8 +1,8 @@
 site_name: Twin Souls prototype
 
 nav:
-    - Gameplay: 
-        - Overview: gameplay/index.md
+    - Home: index.md
+    - Gameplay:
         - Twin: gameplay/Twin.md
         - Main Mechanic: 
             - ⛓️ Link concept: gameplay/main-mechanic/Link-concept.md
