@@ -344,6 +344,8 @@ namespace TwinSouls.Player
 
 				this.pool.RemoveEffectsFrom(endPoint.transform);
 				endPoint.pool.RemoveEffectsFrom(this.transform);
+				this.pool.CancelBoosts();
+				endPoint.pool.CancelBoosts();
 
 				this.AcceptSuggestion();
 				endPoint.AcceptSuggestion();

@@ -314,7 +314,7 @@
   
     <li class="md-nav__item">
       <a href="../../gameplay/Twin/" class="md-nav__link">
-        Twin
+        🧙 Twin
       </a>
     </li>
   
@@ -336,14 +336,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_2">
-          Main Mechanic
+          📌 Main Mechanic
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Main Mechanic" data-md-level="2">
+      <nav class="md-nav" aria-label="📌 Main Mechanic" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
-          Main Mechanic
+          📌 Main Mechanic
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -467,14 +467,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_3">
-          Combat Mechanics
+          📌 Combat Mechanics
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Combat Mechanics" data-md-level="2">
+      <nav class="md-nav" aria-label="📌 Combat Mechanics" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Combat Mechanics
+          📌 Combat Mechanics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -518,38 +518,24 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../gameplay/puzzle/" class="md-nav__link">
-        Puzzle elements
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_2_5">
-          Pre production
+        <label class="md-nav__link" for="__nav_2_4">
+          📌 Pre production
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Pre production" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_5">
+      <nav class="md-nav" aria-label="📌 Pre production" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
           <span class="md-nav__icon md-icon"></span>
-          Pre production
+          📌 Pre production
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -560,7 +546,7 @@
   
     <li class="md-nav__item">
       <a href="../../gameplay/pre-production/technical/" class="md-nav__link">
-        Implementation details
+        📜 Implementation details
       </a>
     </li>
   
@@ -574,7 +560,7 @@
   
     <li class="md-nav__item">
       <a href="../../gameplay/pre-production/assets/" class="md-nav__link">
-        Assets
+        📦️ Assets
       </a>
     </li>
   
@@ -588,7 +574,7 @@
   
     <li class="md-nav__item">
       <a href="../../gameplay/pre-production/feedback/" class="md-nav__link">
-        Feedbacks
+        👁️ Feedbacks
       </a>
     </li>
   
@@ -646,6 +632,34 @@
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
         Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../puzzle/" class="md-nav__link">
+        🃏 Puzzle elements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../join/" class="md-nav__link">
+        Join Area
       </a>
     </li>
   
@@ -841,7 +855,34 @@
                 
                   <h1>Area 2 - Pillars</h1>
                 
-                
+                <p>This area is meant for players to understand the fusion mechanic and start cooperating (<a href="../../gameplay/main-mechanic/Fusion-Repression/">🔍️ Fusion &amp; Repression</a>).</p>
+<p>To achieve this effect, it will first make use of 4 pressure plates representing the 4 elements, and 2 boxes (without timer).
+This will be a simple setup to make players understand what the boxes are.</p>
+<p>For the players to understand the fusion and boost system, 4 pillars will be placed as well:</p>
+<ul>
+<li>A pillar needing 💧 <br/>
+Timer: 1 second</li>
+<li>A pillar needing ⚡️ <br/>
+Timer: 1 second</li>
+<li>A pillar needing ❄️ and 💧 (Easy fusion) <br/>
+Timer: 1 second</li>
+<li>A pillar needing ⚡️ and 💧 (Repression possible if not quick) <br/>
+Timer: 5 seconds</li>
+</ul>
+<p>No pillars needing 🔥 will be present, as we want to avoid players dying by the repression of 🔥 burn effect.</p>
+<p><strong>Edit after playtesting:</strong> The 💧 pillar has been replaced by a fully activated pillar.<br/>
+Please refer to <a href="../../playtesting/discovery-session1/">Playtest session #1</a> for details.</p>
+<p><strong>Expected solution</strong></p>
+<ol>
+<li>Conveting the boxes to two different element, and placing them on the associated pressure plates.</li>
+<li>Using the same element to trigger the ⚡️ pillar</li>
+<li>Creating a fusion with ❄️ and 💧 to trigger the corresponding pillar</li>
+<li>Switch to both ⚡️ and hitting the last pillar</li>
+<li>Switch to both 💧 and hitting the last pillar, in order to avoir repression</li>
+<li>Switching elements to fit with the remaining 2 pressure plates</li>
+</ol>
+<p><strong>Edit: In game area</strong></p>
+<p><img alt="Start" src="../../img/area2.png" /></p>
                 
               
               

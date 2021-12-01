@@ -1,6 +1,6 @@
 ## Vote system
 
-As mentioned earlier, [Twins](<../Twin.md>) can dynamically switch of elements during the game. 
+As mentioned earlier, [Twins](<../Twin.md>) can dynamically switch between elements during the game. 
 However a [Twin](<../Twin.md>) cannot switch of element without consent of the other one, Twin Souls is a cooperation game after all !
 
 When a [Twin](<../Twin.md>) wants to switch of element, 

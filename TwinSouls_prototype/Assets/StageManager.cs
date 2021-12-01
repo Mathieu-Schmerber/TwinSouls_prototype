@@ -22,6 +22,7 @@ public class StageManager : Singleton<StageManager>
 	private UIStatBar _playerHealthBar;
 	[SerializeField] private float _twinHealth = 100;
 
+	public int PlayerNumber { get => _twins.Count; }
 	public List<Transform> Players { get => _twins.Select(p => p.transform).ToList(); }
 	public PlayerSpawner Spawner { get => _playerSpawner; }
 	public float TwinHealth { get => _twinHealth; }

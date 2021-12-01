@@ -1,4 +1,4 @@
-[Twins](<../Twin.md>) are linked together with a magical bond. The link is unmaterial, meaning it is not possible to collide with it. It extends and retracts indefinitely depending on the [Twins](<../Twin.md>) positions.
+[Twins](<../Twin.md>) are linked together with a magical bond. The link is imaterial, meaning it is not possible to collide with it. It extends and retracts indefinitely depending on the [Twins](<../Twin.md>) positions.
 
 Each [Twin](<../Twin.md>) can input a magical element into the link, causing element combinations. The magical element a [Twin](<../Twin.md>) is inputting can be selected from the [🎡 Elements equality wheel](<Elements-equality-wheel.md>).
 
@@ -26,6 +26,7 @@ Combination outcomes can affect the link, leading to three different possible st
 
   → Each [Twin](<../Twin.md>) is now constantly enhanced by the other [Twin](<../Twin.md>)'s element 
 
-**Quick sketching**:
+**Sketching**:
+
 ![Link concept](../../img/link-concept.png)
 > Representation of the link between the [Twins](<../Twin.md>)
