@@ -1,4 +1,4 @@
-﻿This game design document will go over every core mechanics of <ins>Twin Souls</ins>.
+﻿This game design document will go over every core mechanic of <ins>Twin Souls</ins>.
 
 ## What's Twin Souls ?
 
@@ -25,14 +25,16 @@ Please refer to the [Prototype section](<prototype/index.md>) for more informati
 ### Quick description
 
 In <ins>Twin Souls</ins>, each player incarnates a Twin. <br/>
-Twins are wizzards, in a fantasy world were magic is everything. <br/>
+Twins are wizards, in a fantasy world were magic is everything. <br/>
 What makes the Twins special is that they have a magical bond with each other, allowing them to mix their magic together. <br/>
 Twins can dynamically switch of elements while resolving puzzles or in the middle of fighting monsters. <br/>
 Mixing their elements can be done in a clever way, making the Twins more efficient during fights. 
-But if done hastly, the result can become harmfull (getting lethal) for the Twins. <br/>
+But if done hastily, the result can become harmful (getting lethal) for the Twins. <br/>
 Since Twins are sharing a special bond, one cannot live without the other. If a Twin dies, the other will follow its sibling. <br/>
 
 <ins>Twin Souls</ins> is a cooperation game, where communication is the key to success.
+
+**Twin Souls is designed to have a very complex mechanic to only be understood and mastered by players after a fair amount of time playing.**
 
 ### Inspiration
 
@@ -48,7 +50,9 @@ Twin Souls is for anyone who is willing to have fun cooperating with a friend.<b
 
 Nowadays the game industry is overwhelmed by the omni presence of AAA Games from big companies 
 and gamers are more and more complaining about the lack of new indie games and cooperative ones at that. <br/>
-This is part of why games like *A Way Out* or *It takes two* or *Death loop* more recently have met the success we all know about. <br/>
+This is part of why games like [*A Way Out*](https://www.ea.com/fr-fr/games/a-way-out), 
+[*It takes two*](https://www.ea.com/fr-fr/games/it-takes-two) or 
+[*Death loop*](https://bethesda.net/en/game/deathloop) more recently have met the success we all know about. <br/>
 
 This is a perfect opportunity for <ins>Twin Souls</ins> to meet the players expectations.
 

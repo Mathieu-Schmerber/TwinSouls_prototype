@@ -25,7 +25,7 @@
 ## ⚠️ Ecosystem
 
 Even though the concepts of Fusion and Regression can be observed throughout the Link between both [Twin](<../Twin.md>), 
-the cause of such an event is not [Twins](<../Twin.md>) emitting elements but rather the elements beiing combined into such effects.
+the cause of such an event is not [Twins](<../Twin.md>) emitting elements but rather the elements being combined into such effects.
 The [Link](<Link-concept.md>) could be seen as a way for both [Twin](<../Twin.md>) to constantly "attack" each other.
 
 As such, we could talk about a Fusion or a Regression whenever an effect combination is observed.

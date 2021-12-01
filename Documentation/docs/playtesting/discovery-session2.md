@@ -1,4 +1,4 @@
-Both player joined the game, using Xbox controllers and the Parsec software in order to play Twin Souls online.
+Both players joined the game, using Xbox controllers and the Parsec software in order to play Twin Souls online.
 
 Players in this session have never even opened the game before.
 
@@ -51,22 +51,22 @@ Overall, I am very happy with the movement and fighting mechanics, in both sessi
 ### Tweaking
 
 * [Area 2 - Pillars & pressure plates](<../prototype/area2.md>):
-  * The activated pillar was a great tweak, however I've added a green outline to the pillars when activated to make players understand better what is happening.
-  * Increasing the boxes outline width to give a better feel that players can interact with them.
+    * The activated pillar was a great tweak, however I've added a green outline to the pillars when activated to make players understand better what is happening.
+    * Increasing the boxes outline width to give a better feel that players can interact with them.
 * [Area 3 - Movement ability](<../prototype/area3.md>):
-  * Increasing the flashable wall collider in height, so players cannot dash over it
+    * Increasing the flashable wall collider in height, so players cannot dash over it
 * [Area 4 - Training ground](<../prototype/area4.md>):
-  * Adding a bounce feedback on dummies when hit, this way players will better understand if their attack did damage or not.
+    * Adding a bounce feedback on dummies when hit, this way players will better understand if their attack did damage or not.
 * [Twin](<../gameplay/Twin.md>):
-  * 👟 speed: 5 units → 6 units (move quicker than the enemies)
+    * 👟 speed: 5 units → 6 units (move quicker than the enemies)
 * [⚔️ Weapons](<../gameplay/combat-mechanic/weapons.md>):
-  * Sword (trying to make melee combat more fair):
-    * Hitbox increased
-    * Attack speed: 1.8 → 2
-    * Projectile speed: 11 units → 12 units
-  * Axe:
-    * Hitbox increased
-  * Staff:
-    * Attack speed: 1.8 → 2
-    * Melee damage: 15 → 10 (don't want it to be stronger than the sword in melee)
-    * Hitbox increased
+    * Sword (trying to make melee combat more fair):
+        * Hitbox increased
+        * Attack speed: 1.8 → 2
+        * Projectile speed: 11 units → 12 units
+    * Axe:
+        * Hitbox increased
+    * Staff:
+        * Attack speed: 1.8 → 2
+        * Melee damage: 15 → 10 (don't want it to be stronger than the sword in melee)
+        * Hitbox increased

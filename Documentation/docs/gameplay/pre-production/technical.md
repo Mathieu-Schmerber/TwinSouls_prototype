@@ -36,3 +36,7 @@ Speaking of tools, let's describe what is in place:
 > The Encyclopedia stores Twin Soul's main resources, it acts as the game dashboard when it comes to adding new content or tweaking values.
 
 ![Encyclopedia](../../img/encyclopedia.png)
+> Encyclopedia tool overview
+
+![Anim](../../img/anim-tool.png)
+> Encyclopedia attack animations management tool

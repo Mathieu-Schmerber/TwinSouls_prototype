@@ -3,8 +3,8 @@ site_name: Twin Souls prototype
 nav:
     - Home: index.md
     - Gameplay:
-        - Twin: gameplay/Twin.md
-        - Main Mechanic: 
+        - 🧙 Twin: gameplay/Twin.md
+        - 📌 Main Mechanic: 
             - ⛓️ Link concept: gameplay/main-mechanic/Link-concept.md
             - 🎡 Elements equality wheel: gameplay/main-mechanic/Elements-equality-wheel.md
             - 🔄 Element switching: gameplay/main-mechanic/Element-switching.md
@@ -12,16 +12,17 @@ nav:
             - ⚗️ Elements & effects: gameplay/main-mechanic/Elements-effects.md
             - ⚙️ Mechanic demonstration: gameplay/main-mechanic/Mechanic-demonstration.md
             - 🎞️ Mechanic scenarios: gameplay/main-mechanic/Mechanic-scenarios.md
-        - Combat Mechanics: 
+        - 📌 Combat Mechanics:
             - ⚔️ Weapons: gameplay/combat-mechanic/weapons.md
             - 🎆 Spell kit: gameplay/combat-mechanic/spell-kit.md
-        - Puzzle elements: gameplay/puzzle.md
-        - Pre production:
-            - Implementation details: gameplay/pre-production/technical.md
-            - Assets: gameplay/pre-production/assets.md
-            - Feedbacks: gameplay/pre-production/feedback.md
+        - 📌 Pre production:
+            - 📜 Implementation details: gameplay/pre-production/technical.md
+            - 📦️ Assets: gameplay/pre-production/assets.md
+            - 👁️ Feedbacks: gameplay/pre-production/feedback.md
     - Prototype:
         - Overview: prototype/index.md
+        - 🃏 Puzzle elements: prototype/puzzle.md
+        - Join Area: prototype/join.md
         - Area 1 - Pressure plates: prototype/area1.md
         - Area 2 - Pillars: prototype/area2.md
         - Area 3 - Movement ability: prototype/area3.md

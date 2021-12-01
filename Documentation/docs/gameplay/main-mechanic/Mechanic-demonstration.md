@@ -36,7 +36,7 @@ Is explained this way:
 
 ### Rules
 
-1. An <ins>element equation</ins> should not contain a same element multiple times, remove the duplicates
+1. An <ins>element equation</ins> should not contain a same element multiple time, remove the duplicates
 2. The emitted element should always be prior to any changes
 
 **Processing an <ins>element equation</ins> in steps: **

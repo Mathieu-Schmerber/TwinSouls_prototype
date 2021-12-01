@@ -14,12 +14,12 @@ Moving abilities are defined according to their element.
 * 🔥 Kit: Dash releasing fire pits behind the [Twin](<../Twin.md>).
   > Any entity walking on the pits gets attacked by the 🔥 effect.
 
-* 💧 Kit: Dash applying the 💧 effect to every entities the [Twin](<../Twin.md>) passes through.
+* 💧 Kit: Dash applying the 💧 effect to every entity the [Twin](<../Twin.md>) passes through.
 * ⚡️Kit: Flash (short ranged teleportation)
 * ❄️Kit: Creates an iced area.
   > [Twins](<../Twin.md>) are quicker on the area while enemies are slowed.
 
 **Movement abilities are affected by boosts**.
 
-If a [Twin](<../Twin.md>) casts the ❄️ ability while beiing boosted by the 💧 element,
-enemies will be freezed ☃️ when walking on the area [(Effect fusion)](<../main-mechanic/Elements-effects.md>).
+If a [Twin](<../Twin.md>) casts the ❄️ ability while being boosted by the 💧 element,
+enemies will be frozen ☃️ when walking on the area [(Effect fusion)](<../main-mechanic/Elements-effects.md>).

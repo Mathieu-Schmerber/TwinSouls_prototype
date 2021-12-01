@@ -38,7 +38,7 @@
 > * [Twin](<../Twin.md>) **A** takes no damage. (Fusion 🔥 + ⚡️ = 💥)
 >   → 💡 [Twin](<../Twin.md>) **A** is boosted by ⚡️ for ⚡️ effect duration
 > * [Twin](<../Twin.md>) **A** attacks **Enemy A**
-> * **Enemy A** takes no damage without beiing affected by anything. (Fusion 🔥 + ⚡️ = 💥)
+> * **Enemy A** takes no damage without being affected by anything. (Fusion 🔥 + ⚡️ = 💥)
 >   ```
 >   🔥 & ⚡️→ [⚡️] = (🔥 + ⚡️ + ⚡️) = 🔥 + ⚡️
 >   ```
@@ -57,9 +57,9 @@
 > * **Enemy B** attacks [Twin](<../Twin.md>) **B**
 > * [Twin](<../Twin.md>) **B** is weakened ( 💧 Weak effect ), while weakened [Twin](<../Twin.md>) **B** cannot cast any spells or abilities, however it can apply physical damages (Repressed 💧 > 🔥 )
 > * **Enemy A** attacks [Twin](<../Twin.md>) **B**
-> * [Twin](<../Twin.md>) **B** is freezed ( ☃️ Freeze effect)
+> * [Twin](<../Twin.md>) **B** is frozen ( ☃️ Freeze effect)
 >   → `❄️ → [🚫] = ❄️`
 >   → [Twin](<../Twin.md>) **B** gets affected by 💧 + ❄️ = ☃️
 > * [Twin](<../Twin.md>) **A** casts a 🔥 spell on [Twin](<../Twin.md>) **B**
 > * [Twin](<../Twin.md>) **B** is weakened ( 💧 Weak effect ) 
->   → 💡 [Twin](<../Twin.md>) **B** was freezed, but [Twin](<../Twin.md>) A repressed the ❄️effect 
+>   → 💡 [Twin](<../Twin.md>) **B** was frozen, but [Twin](<../Twin.md>) A repressed the ❄️effect 

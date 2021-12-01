@@ -15,7 +15,7 @@ Each Twin needs to select it's input device between:
 
 The camera will be placed top-down on a isometric 45° angle. 
 
-It needs to be always filming both Twins. It will be dynamically placed  at an equi-distance between both Twins and will zoom in/out to keep them in sight.
+It needs to be always filming both Twins. It will be dynamically placed  at an equidistance between both Twins and will zoom in/out to keep them in sight.
 
 ## 🏃 Movement
 
