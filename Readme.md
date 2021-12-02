@@ -4,7 +4,7 @@
 
 Twin Souls is a prototype for my Game design and development master course at Heriot Watt University.
 
-The Game Design Documenation (GDD) is hosted on Github Pages at [this link](https://mathieu-schmerber.github.io/TwinSouls_prototype/).
+The Game Design Document (GDD) is hosted on Github Pages at [this link](https://mathieu-schmerber.github.io/TwinSouls_prototype/).
 
 ## Content
 
