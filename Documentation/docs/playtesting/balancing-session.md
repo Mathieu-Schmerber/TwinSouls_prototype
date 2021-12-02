@@ -8,6 +8,8 @@ In total, there were 2 balancing sessions on the "fight only" build.
 
 Here is the list of tweaking done after the balancing sessions, taking the testers inputs into account: 
 
+* 🔥 Burning effect: 5 damages/second → 10 damages/second
+* ❤️ Twin health bar: 100hp → 200hp
 * Axe: 
     * Melee damage: 10 → 15 (first attack) 10 → 7 (second attack which contains two hits)
     * Projectile damage: 15  → 10

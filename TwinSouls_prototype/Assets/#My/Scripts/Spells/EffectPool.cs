@@ -442,7 +442,8 @@ namespace TwinSouls.Spells
         public void CancelBoosts()
 		{
             _boostEffects.Clear();
-		}
+            OnBoostChangedEvt?.Invoke(ElementData.ElementType.NONE);
+        }
 
         #endregion
     }

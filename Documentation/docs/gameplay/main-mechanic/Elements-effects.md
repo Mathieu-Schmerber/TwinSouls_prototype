@@ -3,7 +3,7 @@
 Each element has its effect, that can be applied by the means of attacks or spells.
 
 * 🔥 Fire → Burn effect
-  > Applies **{5}** damages each **{1}** seconds for **{3}** seconds
+  > Applies **{10}** damages each **{1}** seconds for **{3}** seconds
 
 * ❄️Ice → Slow effect
   > Slows by **{20}**% for **{2}** seconds

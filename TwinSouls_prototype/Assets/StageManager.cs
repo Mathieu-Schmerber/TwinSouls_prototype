@@ -54,7 +54,7 @@ public class StageManager : Singleton<StageManager>
 	private void StageManager_OnDamageTakenEvt(GameObject arg1, float arg2, bool arg3)
 	{
 		_twinHealth -= arg2;
-		_playerHealthBar.SetValue((int)_twinHealth, 100);
+		_playerHealthBar.SetValue((int)_twinHealth, 200);
 		if (_twinHealth <= 0)
 			OnTwinDeath();
 	}
@@ -64,6 +64,6 @@ public class StageManager : Singleton<StageManager>
 		GameObject.FindObjectsOfType<Spawner>().ToList().ForEach(sp => sp.ResetSpawner());
 		_twinHealth = 100;
 		Spawner.RespawnPlayers(_twins[0].transform, _twins[1].transform);
-		_playerHealthBar.SetValue((int)_twinHealth, 100);
+		_playerHealthBar.SetValue((int)_twinHealth, 200);
 	}
 }

@@ -36,6 +36,14 @@ Since Twins are sharing a special bond, one cannot live without the other. If a 
 
 **Twin Souls is designed to have a very complex mechanic to only be understood and mastered by players after a fair amount of time playing.**
 
+### What makes Twin Souls fun ?
+
+Twin Souls offers a satisfying movement system, providing fancy abilities.
+Everything a player inputs provides clear visual feedbacks, it is simply fun to move around to begin with. <br/>
+But Twin Souls has more to it. 
+Twin Souls promises an experience where you and your team mate will need to put some reflexion into solving complex puzzles and even when fighting. <br/>
+Soon enough, you'll find out how annoyingly funny it is to die by your teammate's mistake ! 
+
 ### Inspiration
 
 Magicka 2 is the main source of inspiration for <ins>Twin Souls</ins>. <br/>
