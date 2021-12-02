@@ -8,7 +8,7 @@ The Game Design Documenation (GDD) is hosted on Github Pages at [this link](http
 
 ## Content
 
-* **/Documentation
+* **/Documentation**
 > Documentation sources and build
 
 * **/TwinSouls_prototype**
