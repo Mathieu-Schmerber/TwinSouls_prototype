@@ -1,5 +1,7 @@
 ﻿This game design document will go over every core mechanic of <ins>Twin Souls</ins>.
 
+Twin Souls's installer can be found on the [Github repository](https://github.com/Mathieu-Schmerber/TwinSouls_prototype) if you want to try it.
+
 ## What's Twin Souls ?
 
 ### Genre
